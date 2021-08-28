@@ -1,0 +1,43 @@
+<html>
+<%- include head.ejs %>
+
+<style>
+    .container {
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <%- include nav.ejs %>
+
+    <div class="container">
+        <form action="">
+            <h3 class="text-center">Contact US</h3>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Name</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Email</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon3">Work</span>
+                <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+            </div>
+
+            <div class="mb-3">
+                <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                <input class="form-control" type="file" id="formFileMultiple" multiple>
+            </div>
+
+            <button type="button" class="btn btn-primary float-right">Primary</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
